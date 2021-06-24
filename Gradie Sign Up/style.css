@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-image: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-container {
+  margin: auto;
+  width: 1000px;
+  max-width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  background: #042d3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.intro {
+  margin-top: 2.5rem;
+  z-index: 2;
+}
+
+.intro p {
+  color: #ccc;
+}
+
+.img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: absolute;
+  bottom: -0.4rem;
+}
+
+form {
+  width: 50%;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 0 10px 10px 0;
+  border-left: 0;
+  padding: 0 4rem;
+}
+
+form h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-control {
+  height: 3rem;
+  margin: .5rem 0 1.2rem 0;
+  border: 1.6px solid #ccc;
+  border-radius: 5px;
+  padding: 0 .5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.tnc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.tnc label {
+  font-size: 1.1rem;
+  margin-left: .5rem;
+}
+
+.tnc a {
+  color: #042d3d;
+}
+
+.btn {
+  background: #042d3d;
+  border-radius: 4px;
+  height: 3rem;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 770px) {
+  .form-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .image, form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
